@@ -36,18 +36,43 @@ table
 	width:90%; 
     margin-left:5%; 
     margin-right:5%;
+	table-layout:fixed;
 }
 th, td
 {
 	border: 1px solid black;
 	text-align: center;
 }
+tr:nth-child(even) {background: #ffe645}
+tr:nth-child(odd) {background: #e3cd3d}
+
+td.eat { background-color: #eeffab;}
+td.transport { background-color: #ffd1ba;}
+td.carbon {	background-color: #baffab;}
+td.quantum { background-color: #f2abff;}
+td.culture { background-color: #abffdf;}
+td.independent { background-color: #abd1ff;}
+td.web { background-color: #c3abff;}
+td.duty{ background-color: #ffabc8; }
+
+
 
 .center
 {
 	width: 60%;
 	margin: 0 auto;
 	background-color:#f7dd94 ;
-	padding: 10px;
+	padding: 10px 10px 100px 20px;
 	font-family: mainPageFont;
+}
+
+.footer
+{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ffb3b3;
+   color: #4a0000;
+   text-align: center;
 }
