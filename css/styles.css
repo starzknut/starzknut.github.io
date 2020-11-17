@@ -69,8 +69,14 @@ td.duty{ background-color: #ffabc8; }
 	opacity: 0.2;
 }
 
-h2{ position:relative; }
-h2 span{ position:absolute; top:-100px;}
+h2
+{ position:relative; }
+
+h2 span
+{ 
+	position:absolute;
+	top:-100px;
+}
 
 .footer
 {
