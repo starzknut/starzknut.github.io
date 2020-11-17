@@ -1,10 +1,53 @@
+@font-face {
+  font-family: mainPageFont;
+  src: url(../font/Asap-Regular.otf);
+}
+
+body {
+  background-image: url("../img/woodBoards.jpg");
+  background-attachment: fixed;
+  background-color: #dddddd;
+}
+
 .bookTitle
 {
 	font-style: italic;
 }
 
-table, th, td
+img
 {
-		border: 1px solid black;
-		text-align: center;
+	border-radius: 8px;
+	max-width: 100%;
+	box-shadow: -12px 13px 18px -1px rgba(0,0,0,0.79);
+	float: right;
+}
+
+#poem
+{
+  width: 60%;
+  padding: 20px;
+  margin-left: 50px;
+  background-color: #fcf2a7;
+}
+
+table
+{
+	border: 1px solid black;
+	width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
+}
+th, td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.center
+{
+	width: 60%;
+	margin: 0 auto;
+	background-color:#f7dd94 ;
+	padding: 10px;
+	font-family: mainPageFont;
 }
