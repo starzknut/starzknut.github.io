@@ -7,7 +7,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = "img/alien.png";
+  modalImg.src = "img/Alien.png";
   captionText.innerHTML = this.alt;
 }
 
