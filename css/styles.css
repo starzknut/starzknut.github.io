@@ -66,6 +66,11 @@ td.duty{ background-color: #ffabc8; }
 	font-family: mainPageFont;
 }
 
+#tictac
+{
+	opacity: 0.2;
+}
+
 .footer
 {
    position: fixed;
@@ -76,3 +81,4 @@ td.duty{ background-color: #ffabc8; }
    color: #4a0000;
    text-align: center;
 }
+

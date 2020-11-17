@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>For human use only</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -12,7 +13,7 @@
 <body>
 	<div class="center">
 	<h1>Ford Hu'Man Prefect</h1>
-	<img src="selfPortrait.jpg" alt="Human Self Portrait">
+	<img id ="myImg" src="selfPortrait.jpg" alt="Human Self Portrait">
 	
 	<h2>Personal Info:</h2>
 	<ul>
@@ -74,9 +75,17 @@
 		<tr> <td>6:00</td> <td></td>   </tr>
 		<tr> <td>6:30</td> <td></td>  </tr>
 	</table>
+	<div id="tictac"><p>Hidden paschal ovum of enjoy human game with square strategy from <a href="tictactoe.html">link here</a></p></div>
 	</div>
 	<div class="footer">
 	<p>Copyright &copy; 2020 &mdash; Daniel Horning</p>
 	</div>
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01">
+		<div id="caption"></div>
+	</div>
+	<script src="scripts/modal.js"></script>
+	
 </body>
 </html>
